@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Weather Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="weather.js"></script>  
+</head>
+<body>
+    <div class="wrap" id="wrap"></div>
+        <toolbar>
+            <div class="center">Weather Dashboard</div>
+        </toolbar>
+     <header>
+         <input id="textcity" placeholder="City Name" class="clearance">
+         </input>
+         <button id="btnWeather">search</button>
+     
+     <section class="section" id="result"></section>  
+        </header>
+
+        <main>
+            <section class="location">                                  
+                <div class="city">Salt Lake City, UT</div>
+                <div class="date">Saturday April 4, 2020</div>
+            </section>
+            <div class="current">
+                <div class="temperature">60<span>°f</span></div>
+                <div class="skies">Sunny</div>
+                <div class= "hi-lo">43°f / 60°f</div>                                                                                                                     
+            </div>
+        </main>
+    </div>
+    <script src="weather.js">
+    </script>
+</body>
+</html>
