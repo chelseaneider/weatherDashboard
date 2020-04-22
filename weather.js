@@ -12,6 +12,7 @@ $(document).ready(function(){
                 var fa = function(k){
                    let c = k - 273;
                    let f = 1.8 * c + 32;
+                   total = Math.round(total);
                    return f 
                 }
                $("#city")
